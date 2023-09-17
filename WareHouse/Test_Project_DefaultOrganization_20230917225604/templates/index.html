@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information</title>
+</head>
+<body>
+    <h1>Student Information</h1>
+    <form method="POST" action="{{ url_for('index') }}">
+        {{ form.csrf_token }}
+        {{ form.name.label }} {{ form.name }}
+        {{ form.age.label }} {{ form.age }}
+        {{ form.education.label }} {{ form.education }}
+        {{ form.address.label }} {{ form.address }}
+        {{ form.city.label }} {{ form.city }}
+        {{ form.phone_number.label }} {{ form.phone_number }}
+        {{ form.submit }}
+    </form>
+</body>
+</html>

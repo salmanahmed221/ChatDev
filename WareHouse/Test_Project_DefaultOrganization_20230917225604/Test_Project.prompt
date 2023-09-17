@@ -1,0 +1,1 @@
+please make a flask app. app should have a web page asking for students information like name age education address city and phone number. then there should be a submit button. after submitting the record should be saved into a sqlite database
